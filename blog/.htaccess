@@ -1,0 +1,16 @@
+# Enable clean URLs for blog posts like /blog/generative-ai-in-business
+RewriteEngine On
+
+# Only apply to requests in the /blog directory
+RewriteBase /blog/
+
+# If the request is for a file or directory that exists, do nothing
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Match /blog/some-post-name and rewrite to /blog/post.php?slug=some-post-name
+RewriteRule ^([a-zA-Z0-9\-_]+)$ post.php?slug=$1 [QSA,L]
+
+# Optionally, allow /blog/some-post-name/ (with trailing slash)
+RewriteRule ^([a-zA-Z0-9\-_]+)/$ post.php?slug=$1 [QSA,L]

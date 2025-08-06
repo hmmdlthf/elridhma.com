@@ -1,0 +1,22 @@
+# Remove .html extension from URLs
+RewriteEngine On
+# Internally rewrite clean URLs to .html files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+# Redirect .html URLs to clean URLs (external redirect)
+RewriteCond %{THE_REQUEST} \/([^.]+)\.html[\s?] [NC]
+RewriteRule ^([^.]+)\.html$ /$1 [R=301,L]
+
+# Remove .php extension for all PHP files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+# Blog post clean URLs: /blog/slug => /blog/post.php?slug=slug
+RewriteRule ^blog/([a-zA-Z0-9\-_]+)$ blog/post.php?slug=$1 [QSA,L]
+RewriteRule ^blog/([a-zA-Z0-9\-_]+)/$ blog/post.php?slug=$1 [QSA,L]
+
+# Blog index clean URL: /blog => /blog/index.php
+RewriteRule ^blog/?$ blog/index.php [L]
