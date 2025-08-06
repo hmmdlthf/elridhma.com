@@ -8,7 +8,7 @@
     <p class="lead mb-4">Sri Lanka's trusted software company. Pay only for domain & hosting. Limited time offer!</p>
     <a href="free-website.php" class="btn btn-lg" style="background:#7C3AED; color:#fff;">Get Started Now</a>
     <div class="mt-4">
-      <img src="assets/images/logo/elridhma-logo.svg" alt="Elridhma Logo" height="60">
+      <!-- <img src="assets/images/logo/elridhma-logo.svg" alt="Elridhma Logo" height="60"> -->
     </div>
   </div>
 </section>
