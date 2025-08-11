@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /includes/
+Disallow: /assets/
+Disallow: /templates/
+
+# Allow specific assets for SEO
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Sitemap location
+Sitemap: https://elridhma.com/sitemap.xml
+
+# Crawl delay (optional - 1 second)
+Crawl-delay: 1

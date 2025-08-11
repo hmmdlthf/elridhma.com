@@ -1,0 +1,7 @@
+<?php
+/**
+ * Sitemap XML Redirect
+ * This file makes /sitemap.xml accessible by including the dynamic sitemap generator
+ */
+include_once 'sitemap.xml.php';
+?>
