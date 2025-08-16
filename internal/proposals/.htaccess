@@ -1,0 +1,4 @@
+# Minimal protection - only block JSON files
+<Files "*.json">
+    Require all denied
+</Files>

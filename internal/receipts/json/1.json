@@ -1,0 +1,71 @@
+{
+  "invoice_number": "INV/WB-25/26-0001",
+  "date": "2025-08-14",
+  "secret": "fazly123",
+  "company": {
+    "name": "Elridhma",
+    "address": "112/1 Vauxhell, Colombo 2, Western, 00200, LK",
+    "email": "info@elridhma.com",
+    "website": "www.elridhma.com"
+  },
+  "bill_to": {
+    "name": "Property Link Global (PVT) LTD",
+    "email": "info.stellarit@gmail.com",
+    "address": "492/6, Galle Road, Colombo 06, Wellawatta, Sri Lanka"
+  },
+  "items": [
+    {
+      "item_no": "1",
+      "description": "Web Design & Development Service",
+      "note": "(Complimentary Gift)",
+      "quantity": 1,
+      "unit_price": 0.00,
+      "amount": 0.00
+    },
+    {
+      "item_no": "2",
+      "description": "Hosting (1st Month)",
+      "note": "",
+      "quantity": 1,
+      "unit_price": 1000.00,
+      "amount": 1000.00
+    },
+    {
+      "item_no": "3",
+      "description": "Business Email Setup (1 Account)",
+      "note": "First email free (Complimentary Gift)",
+      "quantity": 1,
+      "unit_price": 0.00,
+      "amount": 0.00
+    },
+    {
+      "item_no": "4",
+      "description": "4 Business Email Accounts (1st Month)",
+      "note": "Each email at LKR 200/month each; setup fee waived",
+      "quantity": 4,
+      "unit_price": 200.00,
+      "amount": 800.00
+    }
+  ],
+  "totals": {
+    "subtotal": 1800.00,
+    "total_paid": 1800.00,
+    "balance_due": 0.00
+  },
+  "notes": [
+    "Web design & development service provided as a complimentary gift under the Complimentary Website Package offer.",
+    "Payment covers only the hosting for the first month and email hosting for the first month."
+  ],
+  "signatures": {
+    "director": {
+      "name": "Mohamed Azeem",
+      "email": "azeem@elridhma.com",
+      "title": "Managing Director"
+    },
+    "prepared_by": {
+      "name": "Ahamed Althaf", 
+      "email": "althaf@elridhma.com",
+      "title": "IT Department"
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "proposal_number": "1",
+  "secret": "azeem123",
+  "company": {
+    "name": "Elridhma",
+    "address": "112/1 Vauxhell, Colombo 2, Western, 00200, LK",
+    "email": "info@elridhma.com",
+    "website": "www.elridhma.com"
+  },
+  "client": {
+    "name": "Stellar Information Technology (Pvt) Ltd.",
+    "email": "info.stellarit@gmail.com",
+    "address": "492/6, Galle Road, Colombo 06, Wellawatta, Sri Lanka"
+  },
+  "proposal": {
+    "title": "Complimentary Website Package + Add‑On Features",
+    "type": "Website Development",
+    "date": "2025-08-14"
+  },
+  "introduction": {
+    "paragraphs": [
+      "Thank you for showing interest in our website development services. We are excited about the opportunity to help your business establish a professional and impactful online presence.",
+      "To support growing businesses like yours, we're offering a completely free basic website, along with affordable options to add more advanced features if needed."
+    ]
+  },
+  "free_package": {
+    "title": "Your Free Website Package",
+    "features": [
+      {
+        "name": "3–4 Page Website",
+        "description": "(Home, About Us, Services/Product, Contact with form)"
+      },
+      {
+        "name": "Mobile‑Responsive Design",
+        "description": ""
+      },
+      {
+        "name": "Basic SEO Optimization",
+        "description": ""
+      },
+      {
+        "name": "SSL Certificate",
+        "description": "(for secure browsing)"
+      }
+    ],
+    "hosting_note": {
+      "title": "<em>Note:</em> Client covers domain & hosting cost:",
+      "costs": [
+        {
+          "item": "Domain (yourbusiness.com)",
+          "price": "≈ 4,500 / year (depends on domain type)"
+        },
+        {
+          "item": "Hosting (shared server)",
+          "price": "1,000 / month"
+        },
+        {
+          "item": "Email Hosting (first email free)",
+          "price": "200 / month per email"
+        }
+      ]
+    }
+  },
+  "why_we_do_this": {
+    "content": "We're committed to helping businesses make their first step online without high initial costs. In return, we ask for a small gesture as outlined in the Terms of Free Website Offer below."
+  },
+  "terms": [
+    {
+      "number": "1",
+      "title": "Complimentary Service",
+      "content": "The website design and development service is provided free of charge as a promotional offer."
+    },
+    {
+      "number": "2",
+      "title": "Domain & Hosting",
+      "content": "Client is responsible for domain registration (LKR 4,500/year) and hosting fees (LKR 1,000/month)."
+    },
+    {
+      "number": "3",
+      "title": "Social Media Announcement Upon Offer Acceptance",
+      "content": "We kindly request that you announce on your official social media channels that you have started your website project with us, and tag our company. You do not need to mention any details about the offer."
+    },
+    {
+      "number": "4",
+      "title": "Post-Deployment Acknowledgment",
+      "content": "Upon successful project completion, we request that you share a post about your new website on your social media platforms, tagging our company to acknowledge our collaboration."
+    },
+    {
+      "number": "5",
+      "title": "Feedback & Review Request",
+      "content": "Provide a written review/testimonial; we may also request a short video or a review on Google, LinkedIn, or Facebook where applicable."
+    },
+    {
+      "number": "6",
+      "title": "Limited Time Offer",
+      "content": "This offer is subject to availability and may be withdrawn at any time."
+    }
+  ],
+  "next_steps": [
+    {
+      "step": "Proposal Acceptance – Please confirm to proceed."
+    },
+    {
+      "step": "Domain Registration – We'll help you secure your preferred domain."
+    },
+    {
+      "step": "Design Brief – We'll gather your requirements and preferences."
+    },
+    {
+      "step": "Development – Our team will build your website (5-7 business days)."
+    },
+    {
+      "step": "Launch – Your website goes live!"
+    }
+  ],
+  "addon_features": [
+    {
+      "feature": "Additional Page",
+      "description": "Add extra pages to your website",
+      "price": "5,000 one‑time"
+    }, 
+    {
+      "feature": "Live Chat",
+      "description": "Basic chat integrated into your website",
+      "price": "100,000 one‑time"
+    },
+    {
+      "feature": "AI Chatbot",
+      "description": "Smart chatbot trained on your data (FAQs, policies)",
+      "price": "200,000 one‑time + 4,500/month"
+    },
+    {
+      "feature": "Gallery",
+      "description": "Image/portfolio gallery",
+      "price": "From 4,500 one‑time"
+    },
+    {
+      "feature": "Booking System",
+      "description": "Let clients book appointments or services",
+      "price": "From 50,000 one‑time"
+    },
+    {
+      "feature": "Blog",
+      "description": "Add a blog/news section",
+      "price": "From 20,000 one‑time"
+    },
+    {
+      "feature": "WhatsApp Button",
+      "description": "Click‑to‑chat button",
+      "price": "2,000 one‑time"
+    },
+    {
+      "feature": "Social Media Integration",
+      "description": "Facebook/Instagram feed or profile links",
+      "price": "4,000 one‑time"
+    },
+    {
+      "feature": "Analytics Integration",
+      "description": "Google Analytics setup",
+      "price": "10,000 one‑time"
+    },
+    {
+      "feature": "Custom Email",
+      "description": "Professional email setup",
+      "price": "500 / month per email"
+    },
+    {
+      "feature": "Payment Integration",
+      "description": "Accept online payments",
+      "price": "From 50,000 one‑time"
+    }
+  ],
+  "bank_details": {
+    "title": "Bank Details for Payment",
+    "bank_name": "Commercial Bank",
+    "bank_branch": "Slave Island",
+    "account_name": "CAAQIT (PVT) LTD",
+    "account_number": "1000974490"
+  },
+  "contact": {
+    "director": {
+      "title": "Director",
+      "email": "azeem@elridhma.com"
+    },
+    "technical_manager": {
+      "title": "Technical Manager", 
+      "email": "althaf@elridhma.com"
+    }
+  },
+  "signatures": {
+    "director": {
+      "name": "Mohamed Azeem",
+      "email": "azeem@elridhma.com",
+      "title": "Managing Director",
+      "date": "2025-08-14"
+    },
+    "prepared_by": {
+      "name": "Technical Team",
+      "email": "althaf@elridhma.com", 
+      "title": "Technical Manager",
+      "date": "2025-08-14"
+    }
+  }
+}
