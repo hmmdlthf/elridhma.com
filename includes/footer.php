@@ -130,7 +130,7 @@ document.addEventListener('click', function(e) {
 </script>
 
 <!-- Scroll animation observer -->
-<script src="/assets/js/animations.js"></script>
+<script src="/assets/js/animations.js?v=3.5"></script>
 
 <?php if(isset($additional_js)): foreach($additional_js as $js): ?>
   <script src="<?php echo htmlspecialchars($js); ?>"></script>
