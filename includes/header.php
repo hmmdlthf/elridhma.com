@@ -126,7 +126,7 @@
 
     <!-- Desktop Links -->
     <div class="nav-links">
-      <a href="/index"    class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='index.php'    ? 'active':''; ?>">Home</a>
+      <a href="/"    class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='index.php'    ? 'active':''; ?>">Home</a>
       <a href="/packages" class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='packages.php' ? 'active':''; ?>">Packages</a>
       <a href="/portfolio"class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='portfolio.php'? 'active':''; ?>">Portfolio</a>
       <a href="/about"    class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='about.php'    ? 'active':''; ?>">About</a>
@@ -148,7 +148,7 @@
 
   <!-- Mobile Menu -->
   <div id="mobileNav" class="mobile-nav">
-    <a href="/index"    class="nav-link">Home</a>
+    <a href="/"    class="nav-link">Home</a>
     <a href="/packages" class="nav-link">Packages</a>
     <a href="/portfolio"class="nav-link">Portfolio</a>
     <a href="/about"    class="nav-link">About</a>

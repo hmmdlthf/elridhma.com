@@ -40,7 +40,7 @@ include '../includes/header.php';
       <div style="font-size:4rem;margin-bottom:1rem;">404</div>
       <h1 style="font-size:1.8rem;margin-bottom:0.75rem;">Post Not Found</h1>
       <p style="color:#71717A;margin-bottom:2rem;">The blog post you're looking for doesn't exist or has been moved.</p>
-      <a href="index" class="btn-gradient"><i class="fas fa-arrow-left"></i> Back to Blog</a>
+      <a href="/" class="btn-gradient"><i class="fas fa-arrow-left"></i> Back to Blog</a>
     </div>
   </section>
 
