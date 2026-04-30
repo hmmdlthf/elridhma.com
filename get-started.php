@@ -53,11 +53,11 @@ include 'includes/header.php';
             </label>
             <label style="display:flex;align-items:flex-start;gap:1rem;background:#09090B;border:1px solid #27272A;border-radius:12px;padding:1.1rem;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='#8B5CF6'" onmouseout="this.style.borderColor='#27272A'">
               <input type="radio" name="package" value="standard" style="margin-top:3px;accent-color:#8B5CF6;">
-              <div><div style="font-weight:600;">Standard — LKR 299/mo</div><div style="font-size:0.82rem;color:#71717A;margin-top:0.2rem;">10 pages · Custom design · Advanced SEO · Analytics</div></div>
+              <div><div style="font-weight:600;">Standard — LKR 7,900/mo <span style="font-size:0.72rem;font-weight:400;color:#52525B;">≈ $26/mo</span></div><div style="font-size:0.82rem;color:#71717A;margin-top:0.2rem;">10 pages · Custom design · Advanced SEO · Analytics</div></div>
             </label>
             <label style="display:flex;align-items:flex-start;gap:1rem;background:#09090B;border:1px solid #27272A;border-radius:12px;padding:1.1rem;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='#8B5CF6'" onmouseout="this.style.borderColor='#27272A'">
               <input type="radio" name="package" value="pro" style="margin-top:3px;accent-color:#8B5CF6;">
-              <div><div style="font-weight:600;">Pro — LKR 599/mo</div><div style="font-size:0.82rem;color:#71717A;margin-top:0.2rem;">Unlimited pages · E-commerce · CRM integration · Priority support</div></div>
+              <div><div style="font-weight:600;">Pro — LKR 17,900/mo <span style="font-size:0.72rem;font-weight:400;color:#52525B;">≈ $60/mo</span></div><div style="font-size:0.82rem;color:#71717A;margin-top:0.2rem;">Unlimited pages · E-commerce · CRM integration · Priority support</div></div>
             </label>
             <label style="display:flex;align-items:flex-start;gap:1rem;background:#09090B;border:1px solid #27272A;border-radius:12px;padding:1.1rem;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='#8B5CF6'" onmouseout="this.style.borderColor='#27272A'">
               <input type="radio" name="package" value="enterprise" style="margin-top:3px;accent-color:#8B5CF6;">

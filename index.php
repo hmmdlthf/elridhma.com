@@ -250,9 +250,10 @@ include 'includes/header.php';
         <div class="pricing-badge">Most Popular</div>
         <div style="font-size:0.75rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#8B5CF6;margin-bottom:0.75rem;">Pro</div>
         <div style="display:flex;align-items:baseline;gap:0.4rem;margin-bottom:0.25rem;">
-          <span style="font-size:2.5rem;font-weight:800;">LKR 599</span>
+          <span style="font-size:2.5rem;font-weight:800;">LKR 17,900</span>
           <span style="font-size:0.85rem;color:#71717A;">/mo</span>
         </div>
+        <div style="font-size:0.75rem;color:#52525B;margin-bottom:0.3rem;">≈ $60/mo</div>
         <p style="font-size:0.85rem;color:#71717A;margin-bottom:1.5rem;line-height:1.5;">For businesses ready to sell online and scale.</p>
         <div style="border-top:1px solid #3F3F46;padding-top:1.25rem;margin-bottom:1.5rem;">
           <div class="check-item"><i class="fas fa-check check-icon"></i>Unlimited pages</div>

@@ -41,9 +41,10 @@ include 'includes/header.php';
       <div class="pricing-card fade-up delay-1">
         <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#71717A;margin-bottom:0.7rem;">Standard</div>
         <div style="display:flex;align-items:baseline;gap:0.3rem;margin-bottom:0.2rem;">
-          <span style="font-size:2.2rem;font-weight:800;">LKR 299</span>
+          <span style="font-size:2.2rem;font-weight:800;">LKR 7,900</span>
           <span style="font-size:0.8rem;color:#71717A;">/mo</span>
         </div>
+        <div style="font-size:0.75rem;color:#52525B;margin-bottom:0.3rem;">≈ $26/mo</div>
         <p style="font-size:0.82rem;color:#71717A;margin-bottom:1.5rem;line-height:1.5;">Ideal for growing businesses wanting a unique brand.</p>
         <div style="border-top:1px solid #27272A;padding-top:1.1rem;margin-bottom:1.5rem;">
           <div class="check-item"><i class="fas fa-check check-icon"></i>10 pages</div>
@@ -63,9 +64,10 @@ include 'includes/header.php';
         <div class="pricing-badge">Most Popular</div>
         <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:#8B5CF6;margin-bottom:0.7rem;">Pro</div>
         <div style="display:flex;align-items:baseline;gap:0.3rem;margin-bottom:0.2rem;">
-          <span style="font-size:2.2rem;font-weight:800;">LKR 599</span>
+          <span style="font-size:2.2rem;font-weight:800;">LKR 17,900</span>
           <span style="font-size:0.8rem;color:#71717A;">/mo</span>
         </div>
+        <div style="font-size:0.75rem;color:#52525B;margin-bottom:0.3rem;">≈ $60/mo</div>
         <p style="font-size:0.82rem;color:#71717A;margin-bottom:1.5rem;line-height:1.5;">Everything you need to sell online and automate operations.</p>
         <div style="border-top:1px solid #3F3F46;padding-top:1.1rem;margin-bottom:1.5rem;">
           <div class="check-item"><i class="fas fa-check check-icon"></i>Unlimited pages</div>
