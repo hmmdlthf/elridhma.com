@@ -79,7 +79,7 @@
     </script>
 
     <!-- Custom Design System -->
-    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/main.css?v=3.5" rel="stylesheet">
 
     <?php if(isset($additional_css)): foreach($additional_css as $css): ?>
         <link href="<?php echo htmlspecialchars($css); ?>" rel="stylesheet">
@@ -122,7 +122,7 @@
     <!-- Logo -->
     <a href="/" style="display:flex;align-items:center;gap:0.5rem;">
       <img src="/assets/images/logo/logo.png" alt="<?php echo COMPANY_NAME; ?>" style="height:32px;">
-    </a>
+    </a>index
 
     <!-- Desktop Links -->
     <div class="nav-links">
