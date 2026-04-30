@@ -128,7 +128,7 @@ include '../includes/header.php';
         <div class="card-glow" style="padding:1.5rem;margin-top:1.5rem;text-align:center;">
           <div class="gradient-text" style="font-size:1.5rem;font-weight:800;margin-bottom:0.5rem;">Free Website</div>
           <p style="font-size:0.82rem;color:#71717A;margin-bottom:1rem;line-height:1.6;">Get your professional website at no design cost.</p>
-          <a href="/free-website.php" class="btn-gradient" style="padding:0.6rem 1.2rem;font-size:0.82rem;width:100%;justify-content:center;">Apply Now</a>
+          <a href="/free-website" class="btn-gradient" style="padding:0.6rem 1.2rem;font-size:0.82rem;width:100%;justify-content:center;">Apply Now</a>
         </div>
       </aside>
 

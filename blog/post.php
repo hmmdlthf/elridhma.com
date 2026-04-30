@@ -40,7 +40,7 @@ include '../includes/header.php';
       <div style="font-size:4rem;margin-bottom:1rem;">404</div>
       <h1 style="font-size:1.8rem;margin-bottom:0.75rem;">Post Not Found</h1>
       <p style="color:#71717A;margin-bottom:2rem;">The blog post you're looking for doesn't exist or has been moved.</p>
-      <a href="index.php" class="btn-gradient"><i class="fas fa-arrow-left"></i> Back to Blog</a>
+      <a href="index" class="btn-gradient"><i class="fas fa-arrow-left"></i> Back to Blog</a>
     </div>
   </section>
 
@@ -105,7 +105,7 @@ include '../includes/header.php';
     <div class="card-glow" style="margin-top:3rem;padding:2rem;text-align:center;">
       <h3 style="font-size:1.25rem;margin-bottom:0.6rem;">Ready to get your business online?</h3>
       <p style="color:#71717A;font-size:0.9rem;margin-bottom:1.5rem;line-height:1.7;">Get a professional website for FREE — pay only for domain &amp; hosting.</p>
-      <a href="/free-website.php" class="btn-gradient" style="padding:0.75rem 1.75rem;"><i class="fas fa-rocket"></i> Get Free Website</a>
+      <a href="/free-website" class="btn-gradient" style="padding:0.75rem 1.75rem;"><i class="fas fa-rocket"></i> Get Free Website</a>
     </div>
 
   </div>

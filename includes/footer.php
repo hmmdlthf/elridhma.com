@@ -23,20 +23,20 @@
       <!-- Services -->
       <div>
         <p style="font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#52525B;margin-bottom:1rem;">Services</p>
-        <a href="/free-website.php" class="footer-link">Free Website</a>
-        <a href="/packages.php"     class="footer-link">Packages</a>
-        <a href="/portfolio.php"    class="footer-link">Portfolio</a>
-        <a href="/get-started.php"  class="footer-link">Get Started</a>
+        <a href="/free-website" class="footer-link">Free Website</a>
+        <a href="/packages"     class="footer-link">Packages</a>
+        <a href="/portfolio"    class="footer-link">Portfolio</a>
+        <a href="/get-started"  class="footer-link">Get Started</a>
       </div>
 
       <!-- Company -->
       <div>
         <p style="font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#52525B;margin-bottom:1rem;">Company</p>
-        <a href="/about.php"   class="footer-link">About Us</a>
+        <a href="/about"   class="footer-link">About Us</a>
         <a href="/blog/"       class="footer-link">Blog</a>
-        <a href="/contact.php" class="footer-link">Contact</a>
-        <a href="/terms.php"   class="footer-link">Terms</a>
-        <a href="/privacy.php" class="footer-link">Privacy</a>
+        <a href="/contact" class="footer-link">Contact</a>
+        <a href="/terms"   class="footer-link">Terms</a>
+        <a href="/privacy" class="footer-link">Privacy</a>
       </div>
 
       <!-- Contact Info -->
@@ -70,8 +70,8 @@
     <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem;">
       <p style="margin:0;font-size:0.8rem;color:#52525B;">&copy; <?php echo date('Y'); ?> <?php echo COMPANY_NAME; ?>. All rights reserved.</p>
       <div style="display:flex;gap:1.25rem;">
-        <a href="/terms.php"   style="font-size:0.8rem;color:#52525B;transition:color 0.2s;" onmouseover="this.style.color='#71717A'" onmouseout="this.style.color='#52525B'">Terms</a>
-        <a href="/privacy.php" style="font-size:0.8rem;color:#52525B;transition:color 0.2s;" onmouseover="this.style.color='#71717A'" onmouseout="this.style.color='#52525B'">Privacy</a>
+        <a href="/terms"   style="font-size:0.8rem;color:#52525B;transition:color 0.2s;" onmouseover="this.style.color='#71717A'" onmouseout="this.style.color='#52525B'">Terms</a>
+        <a href="/privacy" style="font-size:0.8rem;color:#52525B;transition:color 0.2s;" onmouseover="this.style.color='#71717A'" onmouseout="this.style.color='#52525B'">Privacy</a>
       </div>
     </div>
   </div>

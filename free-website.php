@@ -19,7 +19,7 @@ include 'includes/header.php';
       No hidden fees, no design costs, no development charges.
     </p>
     <div class="anim-cta" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-      <a href="/get-started.php" class="btn-gradient" style="padding:0.9rem 2.2rem;font-size:1rem;"><i class="fas fa-rocket"></i> Apply Now — It's Free</a>
+      <a href="/get-started" class="btn-gradient" style="padding:0.9rem 2.2rem;font-size:1rem;"><i class="fas fa-rocket"></i> Apply Now — It's Free</a>
       <a href="#how-it-works" class="btn-outline" style="padding:0.9rem 2.2rem;font-size:1rem;">See How It Works</a>
     </div>
     <div class="anim-cta" style="display:flex;gap:1.5rem;justify-content:center;flex-wrap:wrap;margin-top:2rem;">
@@ -149,7 +149,7 @@ include 'includes/header.php';
   <div class="max-w-screen" style="max-width:640px;">
     <h2 class="fade-up" style="font-size:clamp(1.8rem,3vw,2.6rem);margin-bottom:1rem;">Ready to go online for free?</h2>
     <p class="fade-up delay-1" style="color:#71717A;margin-bottom:2rem;line-height:1.7;">Join 50+ Sri Lankan businesses that launched with Elridhma. Apply in minutes — limited monthly slots available.</p>
-    <a href="/get-started.php" class="btn-gradient fade-up delay-2" style="padding:0.95rem 2.5rem;font-size:1.05rem;"><i class="fas fa-rocket"></i> Apply Now — It's Free</a>
+    <a href="/get-started" class="btn-gradient fade-up delay-2" style="padding:0.95rem 2.5rem;font-size:1.05rem;"><i class="fas fa-rocket"></i> Apply Now — It's Free</a>
   </div>
 </section>
 

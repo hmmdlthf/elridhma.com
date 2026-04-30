@@ -126,17 +126,17 @@
 
     <!-- Desktop Links -->
     <div class="nav-links">
-      <a href="/index.php"    class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='index.php'    ? 'active':''; ?>">Home</a>
-      <a href="/packages.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='packages.php' ? 'active':''; ?>">Packages</a>
-      <a href="/portfolio.php"class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='portfolio.php'? 'active':''; ?>">Portfolio</a>
-      <a href="/about.php"    class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='about.php'    ? 'active':''; ?>">About</a>
+      <a href="/index"    class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='index.php'    ? 'active':''; ?>">Home</a>
+      <a href="/packages" class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='packages.php' ? 'active':''; ?>">Packages</a>
+      <a href="/portfolio"class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='portfolio.php'? 'active':''; ?>">Portfolio</a>
+      <a href="/about"    class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='about.php'    ? 'active':''; ?>">About</a>
       <a href="/blog/"        class="nav-link <?php echo strpos($_SERVER['REQUEST_URI'],'/blog')!==false ? 'active':''; ?>">Blog</a>
-      <a href="/contact.php"  class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='contact.php'  ? 'active':''; ?>">Contact</a>
+      <a href="/contact"  class="nav-link <?php echo basename($_SERVER['PHP_SELF'])=='contact.php'  ? 'active':''; ?>">Contact</a>
     </div>
 
     <!-- CTA + Hamburger -->
     <div class="nav-cta">
-      <a href="/free-website.php" class="btn-gradient" style="padding:0.55rem 1.2rem;font-size:0.85rem;">
+      <a href="/free-website" class="btn-gradient" style="padding:0.55rem 1.2rem;font-size:0.85rem;">
         <i class="fas fa-gift" style="margin-right:0.35rem;"></i>Free Website
       </a>
       <button class="hamburger" id="menuBtn" onclick="toggleMobileNav()" aria-label="Open menu">
@@ -148,13 +148,13 @@
 
   <!-- Mobile Menu -->
   <div id="mobileNav" class="mobile-nav">
-    <a href="/index.php"    class="nav-link">Home</a>
-    <a href="/packages.php" class="nav-link">Packages</a>
-    <a href="/portfolio.php"class="nav-link">Portfolio</a>
-    <a href="/about.php"    class="nav-link">About</a>
+    <a href="/index"    class="nav-link">Home</a>
+    <a href="/packages" class="nav-link">Packages</a>
+    <a href="/portfolio"class="nav-link">Portfolio</a>
+    <a href="/about"    class="nav-link">About</a>
     <a href="/blog/"        class="nav-link">Blog</a>
-    <a href="/contact.php"  class="nav-link">Contact</a>
-    <a href="/free-website.php" class="btn-gradient" style="text-align:center;margin-top:0.5rem;padding:0.65rem 1.4rem;font-size:0.9rem;">
+    <a href="/contact"  class="nav-link">Contact</a>
+    <a href="/free-website" class="btn-gradient" style="text-align:center;margin-top:0.5rem;padding:0.65rem 1.4rem;font-size:0.9rem;">
       <i class="fas fa-gift" style="margin-right:0.4rem;"></i>Get Free Website
     </a>
   </div>

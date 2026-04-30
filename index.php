@@ -23,10 +23,10 @@ include 'includes/header.php';
           Pay only for your domain &amp; hosting. Limited monthly slots.
         </p>
         <div class="anim-cta" style="display:flex;flex-wrap:wrap;gap:0.9rem;margin-bottom:2.5rem;">
-          <a href="/get-started.php" class="btn-gradient" style="padding:0.8rem 2rem;font-size:0.95rem;">
+          <a href="/get-started" class="btn-gradient" style="padding:0.8rem 2rem;font-size:0.95rem;">
             <i class="fas fa-rocket"></i> Get Free Website
           </a>
-          <a href="/packages.php" class="btn-outline" style="padding:0.8rem 2rem;font-size:0.95rem;">
+          <a href="/packages" class="btn-outline" style="padding:0.8rem 2rem;font-size:0.95rem;">
             View Packages
           </a>
         </div>
@@ -243,7 +243,7 @@ include 'includes/header.php';
           <div class="check-item"><i class="fas fa-times cross-icon"></i>E-commerce</div>
           <div class="check-item"><i class="fas fa-times cross-icon"></i>Custom integrations</div>
         </div>
-        <a href="/get-started.php" class="btn-outline" style="width:100%;justify-content:center;padding:0.65rem;">Get Started Free</a>
+        <a href="/get-started" class="btn-outline" style="width:100%;justify-content:center;padding:0.65rem;">Get Started Free</a>
       </div>
       <!-- Pro (featured) -->
       <div class="pricing-card featured fade-up delay-2" style="padding-top:2.5rem;">
@@ -263,7 +263,7 @@ include 'includes/header.php';
           <div class="check-item"><i class="fas fa-check check-icon"></i>CRM integration</div>
           <div class="check-item"><i class="fas fa-check check-icon"></i>Priority support</div>
         </div>
-        <a href="/get-started.php" class="btn-gradient" style="width:100%;justify-content:center;padding:0.65rem;">Get Pro</a>
+        <a href="/get-started" class="btn-gradient" style="width:100%;justify-content:center;padding:0.65rem;">Get Pro</a>
       </div>
       <!-- Enterprise -->
       <div class="pricing-card fade-up delay-4">
@@ -278,11 +278,11 @@ include 'includes/header.php';
           <div class="check-item"><i class="fas fa-check check-icon"></i>On-site training</div>
           <div class="check-item"><i class="fas fa-check check-icon"></i>Custom reporting</div>
         </div>
-        <a href="/contact.php" class="btn-outline" style="width:100%;justify-content:center;padding:0.65rem;">Talk to Us</a>
+        <a href="/contact" class="btn-outline" style="width:100%;justify-content:center;padding:0.65rem;">Talk to Us</a>
       </div>
     </div>
     <div style="text-align:center;margin-top:2rem;">
-      <a href="/packages.php" style="font-size:0.875rem;color:#8B5CF6;text-decoration:underline;text-underline-offset:3px;">Compare all packages →</a>
+      <a href="/packages" style="font-size:0.875rem;color:#8B5CF6;text-decoration:underline;text-underline-offset:3px;">Compare all packages →</a>
     </div>
   </div>
 </section>
@@ -298,12 +298,12 @@ include 'includes/header.php';
     <h2 class="fade-up delay-1" style="font-size:clamp(1.8rem,3vw,2.8rem);margin-bottom:1rem;">Get your business online today — for free</h2>
     <p class="fade-up delay-2" style="color:#71717A;margin-bottom:2rem;line-height:1.7;">Join 50+ Sri Lankan businesses that launched with Elridhma. Limited monthly slots available.</p>
     <div class="fade-up delay-3" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-      <a href="/get-started.php" class="btn-gradient" style="padding:0.9rem 2.2rem;font-size:1rem;">
+      <a href="/get-started" class="btn-gradient" style="padding:0.9rem 2.2rem;font-size:1rem;">
         <i class="fas fa-rocket"></i> Start Now — It's Free
       </a>
-      <a href="/contact.php" class="btn-outline" style="padding:0.9rem 2.2rem;font-size:1rem;">Talk to Our Team</a>
+      <a href="/contact" class="btn-outline" style="padding:0.9rem 2.2rem;font-size:1rem;">Talk to Our Team</a>
     </div>
   </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'includes/footer'; ?>

@@ -108,7 +108,7 @@ include 'includes/header.php';
   <div class="max-w-screen" style="max-width:560px;">
     <h2 class="fade-up" style="font-size:clamp(1.5rem,3vw,2.2rem);margin-bottom:1rem;">Ready to work with us?</h2>
     <p class="fade-up delay-1" style="color:#71717A;margin-bottom:1.75rem;">Join 50+ Sri Lankan businesses that trust Elridhma to build and grow their online presence.</p>
-    <a href="/get-started.php" class="btn-gradient fade-up delay-2" style="padding:0.85rem 2rem;font-size:0.95rem;"><i class="fas fa-rocket"></i> Get Free Website</a>
+    <a href="/get-started" class="btn-gradient fade-up delay-2" style="padding:0.85rem 2rem;font-size:0.95rem;"><i class="fas fa-rocket"></i> Get Free Website</a>
   </div>
 </section>
 

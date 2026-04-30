@@ -34,7 +34,7 @@ include 'includes/header.php';
           <div class="check-item"><i class="fas fa-times cross-icon"></i>E-commerce</div>
           <div class="check-item"><i class="fas fa-times cross-icon"></i>CRM / APIs</div>
         </div>
-        <a href="/get-started.php?package=free" class="btn-outline" style="width:100%;justify-content:center;">Get Started Free</a>
+        <a href="/get-started?package=free" class="btn-outline" style="width:100%;justify-content:center;">Get Started Free</a>
       </div>
 
       <!-- Standard -->
@@ -56,7 +56,7 @@ include 'includes/header.php';
           <div class="check-item"><i class="fas fa-times cross-icon"></i>E-commerce</div>
           <div class="check-item"><i class="fas fa-times cross-icon"></i>CRM / APIs</div>
         </div>
-        <a href="/get-started.php?package=standard" class="btn-outline" style="width:100%;justify-content:center;">Choose Standard</a>
+        <a href="/get-started?package=standard" class="btn-outline" style="width:100%;justify-content:center;">Choose Standard</a>
       </div>
 
       <!-- Pro (featured) -->
@@ -79,7 +79,7 @@ include 'includes/header.php';
           <div class="check-item"><i class="fas fa-check check-icon"></i>Priority support</div>
           <div class="check-item"><i class="fas fa-times cross-icon"></i>Custom APIs</div>
         </div>
-        <a href="/get-started.php?package=pro" class="btn-gradient" style="width:100%;justify-content:center;">Get Pro</a>
+        <a href="/get-started?package=pro" class="btn-gradient" style="width:100%;justify-content:center;">Get Pro</a>
       </div>
 
       <!-- Enterprise -->
@@ -96,7 +96,7 @@ include 'includes/header.php';
           <div class="check-item"><i class="fas fa-check check-icon"></i>Dedicated account manager</div>
           <div class="check-item"><i class="fas fa-check check-icon"></i>SLA &amp; on-site support</div>
         </div>
-        <a href="/contact.php" class="btn-outline" style="width:100%;justify-content:center;">Contact Us</a>
+        <a href="/contact" class="btn-outline" style="width:100%;justify-content:center;">Contact Us</a>
       </div>
 
     </div>
@@ -112,7 +112,7 @@ include 'includes/header.php';
   <div class="max-w-screen" style="max-width:580px;">
     <h2 class="fade-up" style="font-size:clamp(1.5rem,3vw,2.2rem);margin-bottom:1rem;">Not sure which plan to pick?</h2>
     <p class="fade-up delay-1" style="color:#71717A;margin-bottom:1.75rem;">Talk to our team — we'll recommend the right fit for your business and budget.</p>
-    <a href="/contact.php" class="btn-gradient fade-up delay-2" style="padding:0.85rem 2rem;font-size:0.95rem;">Talk to Our Team</a>
+    <a href="/contact" class="btn-gradient fade-up delay-2" style="padding:0.85rem 2rem;font-size:0.95rem;">Talk to Our Team</a>
   </div>
 </section>
 

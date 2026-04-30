@@ -112,7 +112,7 @@ include 'includes/header.php';
   <div class="max-w-screen" style="max-width:560px;">
     <h2 class="fade-up" style="font-size:clamp(1.5rem,3vw,2.2rem);margin-bottom:1rem;">Want results like these?</h2>
     <p class="fade-up delay-1" style="color:#71717A;margin-bottom:1.75rem;">Your business could be the next success story. Apply for your free website today.</p>
-    <a href="/get-started.php" class="btn-gradient fade-up delay-2" style="padding:0.85rem 2rem;font-size:0.95rem;"><i class="fas fa-rocket"></i> Get Free Website</a>
+    <a href="/get-started" class="btn-gradient fade-up delay-2" style="padding:0.85rem 2rem;font-size:0.95rem;"><i class="fas fa-rocket"></i> Get Free Website</a>
   </div>
 </section>
 
