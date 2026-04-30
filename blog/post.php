@@ -6,7 +6,7 @@ $slug = isset($_GET['slug']) ? $_GET['slug'] : (isset($_GET['post']) ? $_GET['po
 
 if (empty($slug)) { header('Location: index.php'); exit; }
 
-$post_file = 'posts/' . $slug . '.md';
+$post_file = __DIR__ . '/posts/' . $slug . '.md';
 
 if (!file_exists($post_file)) {
     header('HTTP/1.0 404 Not Found');

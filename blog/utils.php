@@ -1,12 +1,12 @@
 <?php
 // Include Parsedown for markdown processing
-require_once '../assets/Parsedown.php';
+require_once __DIR__ . '/../assets/Parsedown.php';
 // Elridhma Sri Lanka blog utilities
 
 // Function to get all blog posts
 function getBlogPosts($limit = null) {
     $posts = [];
-    $post_files = glob('posts/*.md');
+    $post_files = glob(__DIR__ . '/posts/*.md');
     
     foreach ($post_files as $file) {
         $content = file_get_contents($file);
@@ -32,39 +32,54 @@ function getBlogPosts($limit = null) {
 function parseBlogPost($content, $filename) {
     $lines = explode("\n", $content);
     $post = [];
-    $in_frontmatter = false;
-    $frontmatter_closed = false;
     $body_lines = [];
-    
-    foreach ($lines as $line) {
-        if (trim($line) === '---') {
-            if (!$in_frontmatter) {
-                $in_frontmatter = true;
-                continue;
+
+    // Support both fenced (---) and unfenced (raw key:value) frontmatter
+    $fenced = trim($lines[0]) === '---';
+
+    if ($fenced) {
+        // Skip opening ---
+        $in_meta = false;
+        $meta_done = false;
+        foreach ($lines as $i => $line) {
+            if ($i === 0) { $in_meta = true; continue; }
+            if (trim($line) === '---') { $meta_done = true; continue; }
+            if (!$meta_done) {
+                if (strpos($line, ':') !== false) {
+                    list($key, $value) = explode(':', $line, 2);
+                    $post[trim($key)] = trim($value);
+                }
             } else {
-                $frontmatter_closed = true;
-                continue;
+                $body_lines[] = $line;
             }
         }
-        
-        if ($in_frontmatter && !$frontmatter_closed) {
-            if (strpos($line, ':') !== false) {
-                list($key, $value) = explode(':', $line, 2);
-                $post[trim($key)] = trim($value);
+    } else {
+        // Unfenced: key:value lines at top until first blank line, then body
+        $meta_done = false;
+        foreach ($lines as $line) {
+            if (!$meta_done) {
+                if (trim($line) === '') {
+                    $meta_done = true;
+                    continue;
+                }
+                if (strpos($line, ':') !== false) {
+                    list($key, $value) = explode(':', $line, 2);
+                    $post[trim($key)] = trim($value);
+                }
+            } else {
+                $body_lines[] = $line;
             }
-        } elseif ($frontmatter_closed) {
-            $body_lines[] = $line;
         }
     }
-    
+
     if (!isset($post['title']) || !isset($post['date'])) {
         return null;
     }
-    
+
     $post['content'] = implode("\n", $body_lines);
     $post['slug'] = basename($filename, '.md');
     $post['excerpt'] = getExcerpt($post['content']);
-    
+
     return $post;
 }
 
