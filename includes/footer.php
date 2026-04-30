@@ -47,10 +47,10 @@
             <i class="fas fa-map-marker-alt" style="color:#8B5CF6;margin-top:3px;font-size:0.85rem;"></i>
             <span style="font-size:0.875rem;color:#71717A;"><?php echo COMPANY_ADDRESS; ?></span>
           </div>
-          <div style="display:flex;align-items:center;gap:0.6rem;">
+          <!-- <div style="display:flex;align-items:center;gap:0.6rem;">
             <i class="fas fa-phone" style="color:#8B5CF6;font-size:0.85rem;"></i>
             <a href="tel:<?php echo str_replace(' ','',COMPANY_PHONE); ?>" style="font-size:0.875rem;color:#71717A;transition:color 0.2s;" onmouseover="this.style.color='#FAFAFA'" onmouseout="this.style.color='#71717A'"><?php echo COMPANY_PHONE; ?></a>
-          </div>
+          </div> -->
           <div style="display:flex;align-items:center;gap:0.6rem;">
             <i class="fas fa-envelope" style="color:#8B5CF6;font-size:0.85rem;"></i>
             <a href="mailto:<?php echo COMPANY_EMAIL; ?>" style="font-size:0.875rem;color:#71717A;transition:color 0.2s;" onmouseover="this.style.color='#FAFAFA'" onmouseout="this.style.color='#71717A'"><?php echo COMPANY_EMAIL; ?></a>

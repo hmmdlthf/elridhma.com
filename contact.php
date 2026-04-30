@@ -28,13 +28,13 @@ include 'includes/header.php';
               <a href="mailto:<?php echo COMPANY_EMAIL; ?>" style="color:#A1A1AA;font-size:0.9rem;transition:color 0.2s;" onmouseover="this.style.color='#8B5CF6'" onmouseout="this.style.color='#A1A1AA'"><?php echo COMPANY_EMAIL; ?></a>
             </div>
           </div>
-          <div style="display:flex;gap:1rem;align-items:flex-start;">
+          <!-- <div style="display:flex;gap:1rem;align-items:flex-start;">
             <div class="feature-icon cyan"><i class="fas fa-phone"></i></div>
             <div>
               <div style="font-weight:600;margin-bottom:0.25rem;">Phone</div>
               <a href="tel:<?php echo str_replace(' ','',COMPANY_PHONE); ?>" style="color:#A1A1AA;font-size:0.9rem;transition:color 0.2s;" onmouseover="this.style.color='#06B6D4'" onmouseout="this.style.color='#A1A1AA'"><?php echo COMPANY_PHONE; ?></a>
             </div>
-          </div>
+          </div> -->
           <div style="display:flex;gap:1rem;align-items:flex-start;">
             <div class="feature-icon amber"><i class="fas fa-map-marker-alt"></i></div>
             <div>
