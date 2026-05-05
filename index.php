@@ -26,9 +26,9 @@ include 'includes/header.php';
           <a href="/get-started" class="btn-gradient" style="padding:0.8rem 2rem;font-size:0.95rem;">
             <i class="fas fa-rocket"></i> Get Free Website
           </a>
-          <a href="/packages" class="btn-outline" style="padding:0.8rem 2rem;font-size:0.95rem;">
+          <!-- <a href="/packages" class="btn-outline" style="padding:0.8rem 2rem;font-size:0.95rem;">
             View Packages
-          </a>
+          </a> -->
         </div>
         <div class="anim-cta" style="display:flex;flex-wrap:wrap;gap:1.5rem;">
           <span style="display:flex;align-items:center;gap:0.4rem;font-size:0.82rem;color:#71717A;">
@@ -222,7 +222,7 @@ include 'includes/header.php';
 <div class="section-divider"></div>
 
 <!-- PRICING TEASER -->
-<section style="padding:6rem 1.5rem;">
+<!-- <section style="padding:6rem 1.5rem;">
   <div class="max-w-screen">
     <div style="text-align:center;margin-bottom:3.5rem;">
       <div class="section-tag fade-up">Transparent Pricing</div>
@@ -230,7 +230,7 @@ include 'includes/header.php';
       <p class="fade-up delay-2" style="color:#71717A;max-width:460px;margin:0.75rem auto 0;">Start free, upgrade when you're ready. No hidden fees.</p>
     </div>
     <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;align-items:start;" class="pricing-grid">
-      <!-- Free -->
+
       <div class="pricing-card fade-up">
         <div style="font-size:0.75rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#71717A;margin-bottom:0.75rem;">Starter</div>
         <div style="font-size:2.5rem;font-weight:800;margin-bottom:0.25rem;">Free</div>
@@ -245,7 +245,7 @@ include 'includes/header.php';
         </div>
         <a href="/get-started" class="btn-outline" style="width:100%;justify-content:center;padding:0.65rem;">Get Started Free</a>
       </div>
-      <!-- Pro (featured) -->
+
       <div class="pricing-card featured fade-up delay-2" style="padding-top:2.5rem;">
         <div class="pricing-badge">Most Popular</div>
         <div style="font-size:0.75rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#8B5CF6;margin-bottom:0.75rem;">Pro</div>
@@ -265,7 +265,7 @@ include 'includes/header.php';
         </div>
         <a href="/get-started" class="btn-gradient" style="width:100%;justify-content:center;padding:0.65rem;">Get Pro</a>
       </div>
-      <!-- Enterprise -->
+
       <div class="pricing-card fade-up delay-4">
         <div style="font-size:0.75rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#71717A;margin-bottom:0.75rem;">Enterprise</div>
         <div style="font-size:2.5rem;font-weight:800;margin-bottom:0.25rem;">Custom</div>
@@ -285,7 +285,7 @@ include 'includes/header.php';
       <a href="/packages" style="font-size:0.875rem;color:#8B5CF6;text-decoration:underline;text-underline-offset:3px;">Compare all packages →</a>
     </div>
   </div>
-</section>
+</section> -->
 
 <style>
 @media(max-width:768px){.pricing-grid{grid-template-columns:1fr!important;}.pricing-card.featured{transform:none!important;}.steps-row{flex-direction:column;align-items:center;gap:1.5rem;}}
