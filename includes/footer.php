@@ -24,7 +24,7 @@
       <div>
         <p style="font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#52525B;margin-bottom:1rem;">Services</p>
         <a href="/free-website" class="footer-link">Free Website</a>
-        <a href="/packages"     class="footer-link">Packages</a>
+        <!-- <a href="/packages"     class="footer-link">Packages</a> -->
         <a href="/portfolio"    class="footer-link">Portfolio</a>
         <a href="/get-started"  class="footer-link">Get Started</a>
       </div>
